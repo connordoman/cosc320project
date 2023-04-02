@@ -67,7 +67,6 @@ def get_reviews_from_sports_data():
 REVIEWS = get_reviews_from_sports_data()
 
 
-
 def create_trie_from_text(text):
     t = Trie()
     for word in text.split(" "):
